@@ -1,4 +1,4 @@
-# plant-particles
+# dust-particles
 
 three.quarks library used for particles
 
