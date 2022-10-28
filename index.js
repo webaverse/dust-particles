@@ -1,5 +1,4 @@
 import {Vector3,Vector4,TextureLoader,Group,AdditiveBlending,Object3D} from 'three';
-import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 // import {scene, renderer, camera, runtime, world, physics, ui, app, appManager} from 'app';
 import metaversefile from 'metaversefile';
 import * as THREE from 'three';
