@@ -1,7 +1,6 @@
 import {Vector3,Vector4,TextureLoader,Group,AdditiveBlending,Object3D} from 'three';
 // import {scene, renderer, camera, runtime, world, physics, ui, app, appManager} from 'app';
 import metaversefile from 'metaversefile';
-import * as THREE from 'three';
 import {
     Bezier, ColorOverLife, ColorRange,
     ConeEmitter,DonutEmitter, ConstantColor, ConstantValue, FrameOverLife,
@@ -11,7 +10,8 @@ import {
     SizeOverLife, ParticleSystem, ParticleEmitter, BatchedParticleRenderer
 } from "./three.quarks.esm.js";
 
-const {useApp, usePhysics, useCleanup, useFrame, useActivate, useLoaders} = metaversefile;
+const {useApp, usePhysics, useCleanup, useFrame, useActivate, useLoaders, useThree} = metaversefile;
+const THREE = useThree();
 
 const baseUrl = import.meta.url.replace(/(\/)[^\/\/]*$/, '$1');	
 

@@ -3,7 +3,9 @@
  * https://github.com/Alchemist0823/three.quarks#readme
  * Copyright 2021 Alchemist0823 <the.forrest.sun@gmail.com>, MIT
  */
-import { Object3D, Vector4, Vector3, MathUtils, Quaternion, Matrix3, InstancedBufferGeometry, InstancedBufferAttribute, DynamicDrawUsage, Uniform, Vector2, ShaderMaterial, AdditiveBlending, Mesh, DoubleSide, FrontSide, PlaneBufferGeometry, Matrix4, NormalBlending, DefaultLoadingManager, LoaderUtils, FileLoader, LoadingManager, ImageLoader, CubeTexture, Texture, Group, UVMapping, CubeReflectionMapping, CubeRefractionMapping, EquirectangularReflectionMapping, EquirectangularRefractionMapping, CubeUVReflectionMapping, CubeUVRefractionMapping, RepeatWrapping, ClampToEdgeWrapping, MirroredRepeatWrapping, NearestFilter, NearestMipMapNearestFilter, NearestMipMapLinearFilter, LinearFilter, LinearMipMapNearestFilter, LinearMipMapLinearFilter } from 'three';
+import metaversefile from 'metaversefile';
+const {useThree} = metaversefile;
+const { Object3D, Vector4, Vector3, MathUtils, Quaternion, Matrix3, InstancedBufferGeometry, InstancedBufferAttribute, DynamicDrawUsage, Uniform, Vector2, ShaderMaterial, AdditiveBlending, Mesh, DoubleSide, FrontSide, PlaneBufferGeometry, Matrix4, NormalBlending, DefaultLoadingManager, LoaderUtils, FileLoader, LoadingManager, ImageLoader, CubeTexture, Texture, Group, UVMapping, CubeReflectionMapping, CubeRefractionMapping, EquirectangularReflectionMapping, EquirectangularRefractionMapping, CubeUVReflectionMapping, CubeUVRefractionMapping, RepeatWrapping, ClampToEdgeWrapping, MirroredRepeatWrapping, NearestFilter, NearestMipMapNearestFilter, NearestMipMapLinearFilter, LinearFilter, LinearMipMapNearestFilter, LinearMipMapLinearFilter } = useThree();
 
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
